@@ -119,12 +119,20 @@ footer {
     margin-top: 40px;
 }
 
+.mr-30 {
+    margin-right: 30px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
 
 .mb-50 {
     margin-bottom: 50px;
+}
+
+.ml-40 {
+    margin-left: 40px;
 }
 
 .p-ul {
@@ -175,6 +183,10 @@ footer {
     padding-right: 50px;
 }
 
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
 /* STYLES */
 /* Bg area */
 .bg-pastelblue {
@@ -191,12 +203,21 @@ header li {
     margin: 0 20px;
 }
 
+.btn-16 {
+    font-size: 16px;
+}
+
 button {
     background-color: var(--dropbox-blue);
     border: none;
     padding: 8px 15px;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
+}
+
+.decoration-none {
+    text-decoration: none;
+    color: #000;
 }
 
 h1 {
@@ -246,8 +267,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+.content p:first-of-type {
+    color: var(--gray);    
+}
+
 .content p {
-    color: var(--gray);
     font-size: 14px;
     margin-bottom: 20px;
 }
@@ -260,6 +284,28 @@ h2 {
     font-size: 14px;
 }
 
+.p-style {
+    color: #000 !important;
+    padding: 30px 0;
+}
+
+.content>hr {
+    width: 50px;
+    border-top: 0.5px solid var(--table-borders);
+    margin-bottom: 30px;
+}
+
+.fa-check {
+    color: var(--dropbox-blue)
+}
+
+.self-start {
+    align-self: flex-start;
+}
+
+.min-w {
+    min-width: 200px;
+}
 
 
 
@@ -301,8 +347,7 @@ h2 {
     padding: 15px 0;
 }
 
-a {
-    text-decoration: none;
+.footer-list a {
     color: #fff;
 }
 
