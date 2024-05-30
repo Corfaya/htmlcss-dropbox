@@ -221,12 +221,12 @@ h2 {
     padding-bottom: 50px;
 }
 
-.content-plane-title, .content {
+.content-plan-title, .content {
     padding: 10px;
     border: 1px solid var(--table-borders);
 }
 
-.content-plane-title>i, .content-plane-title>div {
+.content-plan-title>i, .content-plan-title>div {
     padding-right: 8px;
     font-size: 14px;
 }
