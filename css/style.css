@@ -10,16 +10,19 @@
     --pastel-blue: #B4D0E7;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 /* colored block: to take out later */
 header {
     background-color: #fff;
     max-width: 100%;
-    font-family: "Open Sans", sans-serif;
 }
 
 footer {
-    background-color: rgb(75, 208, 164);
-    height: 100px;
+    background-color: #000;
+    color: #fff;
 }
 
 /* Display */
@@ -113,6 +116,10 @@ footer {
 
 .py-30 {
     padding: 30px 0;
+}
+
+.py-80 {
+    padding: 80px 0;
 }
 
 .py-100 {
@@ -209,6 +216,44 @@ button {
 .faq-box:last-child {
     border-bottom: 1px solid black;
 }
+
 .faq-box i {
     padding-right: 30px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list>li {
+    padding: 5px 0;
+}
+
+.footer-list>li:first-child {
+    font-weight: 900;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.lang {
+    padding: 50px 0
+}
+
+.lang>* {
+    padding-right: 6px;
+    font-size: 14px;
+    color: gray;
+}
+
+h5 {
+    font-weight: 500;
+}
+
+.container-lg>hr {
+    width: 100px;
 }
