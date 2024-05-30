@@ -1,0 +1,28 @@
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* take out later */
+    border: 1px solid #000;
+}
+
+/* colored block: to take out later */
+body {
+    max-height: 100vh;
+}
+
+header {
+    background-color: #4d3f3f;
+    height: 70px;
+}
+
+main {
+    background-color: #9c4ee4;
+    height: calc(100vh - 170px);
+}
+
+footer {
+    background-color: rgb(75, 208, 164);
+    height: 100px;
+}
