@@ -8,6 +8,8 @@
 :root {
     --dropbox-blue: #0061FF;
     --pastel-blue: #B4D0E7;
+    --table-borders: #dedede;
+    --gray: #909090;
 }
 
 body {
@@ -29,8 +31,16 @@ footer {
     display: flex;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
 .align-center {
     align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .justify-end {
@@ -79,8 +89,6 @@ footer {
 
 .col-33 {
     width: calc(100% / 3);
-    /* to take out later */
-    border: 1px dashed black;
 }
 
 .col-30 {
@@ -115,6 +123,10 @@ footer {
     margin-bottom: 30px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 .p-ul {
     padding: 10px 10px 10px 20px;
 }
@@ -125,6 +137,10 @@ footer {
 
 .p-25 {
     padding: 20px;
+}
+
+.py-20 {
+    padding: 20px 0;
 }
 
 .py-30 {
@@ -153,6 +169,10 @@ footer {
 
 .pr-2 {
     padding-right: 2px;
+}
+
+.pr-50 {
+    padding-right: 50px;
 }
 
 /* STYLES */
@@ -196,26 +216,52 @@ h1 {
     right: 965px;
 }
 
+h2 {
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+.content-plane-title, .content {
+    padding: 10px;
+    border: 1px solid var(--table-borders);
+}
+
+.content-plane-title>i, .content-plane-title>div {
+    padding-right: 8px;
+    font-size: 14px;
+}
+
 .content {
-    /* to take out later */
-    border: 1px solid black;
-    background-color: #0061FF;
-    height: 500px;
+    padding: 30px;
 }
 
-.content-plane-title {
-    /* to take out later */
-    border: 1px solid black;
-    background-color: #0061FF;
-    height: 20px;
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
-.content-plane-info {
-    /* to take out later */
-    border: 1px solid black;
-    background-color: #0061FF;
-    height: 100px;
+.content h5 {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
+
+.content p {
+    color: var(--gray);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.content i {
+    padding-right: 5px;
+}
+
+.content i, .content span {
+    font-size: 14px;
+}
+
+
+
 
 .content-operations {
     /* to take out later */
@@ -267,7 +313,7 @@ a {
 .lang>* {
     padding-right: 6px;
     font-size: 14px;
-    color: gray;
+    color: var(--table-borders);
 }
 
 h5 {
