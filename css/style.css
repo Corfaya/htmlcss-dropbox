@@ -35,6 +35,10 @@ footer {
     justify-content: flex-end;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .inline-block li {
     display: inline-block;
 }
@@ -62,8 +66,8 @@ footer {
     margin: 0 auto;
 }
 
-.col-20 {
-    width: 20%;
+.col-25 {
+    width: 25%;
 }
 
 .col-30 {
@@ -84,12 +88,6 @@ footer {
     /* to take out later */
     border: 1px dashed black;
     background-color: yellow;
-}
-
-.col-60 {
-    width: 60%;
-    /* to take out later */
-    border: 1px dashed black;
 }
 
 .col-70 {
@@ -113,6 +111,10 @@ footer {
     padding: 20px;
 }
 
+.py-30 {
+    padding: 30px 0;
+}
+
 .py-100 {
     padding: 100px 0;
 }
@@ -123,6 +125,10 @@ footer {
 
 .pt-half {
     padding-top: 50%;
+}
+
+.pt-100 {
+    padding-top: 100px;
 }
 
 .pr-2 {
@@ -193,4 +199,16 @@ button {
     width: 500px;
     height: 500px;
     background-color: violet;
+}
+
+.faq {
+    background-color: rgba(0, 0, 255, 0.413);
+    border-top: 1px solid black;
+}
+
+.faq-box:last-child {
+    border-bottom: 1px solid black;
+}
+.faq-box i {
+    padding-right: 30px;
 }
