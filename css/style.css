@@ -14,7 +14,6 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-/* colored block: to take out later */
 header {
     background-color: #fff;
     max-width: 100%;
@@ -49,18 +48,23 @@ footer {
 .row {
     display: flex;
     flex-wrap: wrap;
-    /* to take out later */
-    border: 1px black solid;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
 /* LAYOUT */
 .container-lg {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 .container-sm {
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -73,17 +77,14 @@ footer {
     width: 25%;
 }
 
-.col-30 {
-    width: 30%;
-    /* to take out later */
-    height: 300px;
-    border: 1px dashed black;
-}
-
 .col-33 {
     width: calc(100% / 3);
     /* to take out later */
     border: 1px dashed black;
+}
+
+.col-30 {
+    width: 30%;
 }
 
 .col-50 {
@@ -95,19 +96,31 @@ footer {
 
 .col-70 {
     width: 70%;
-    /* to take out later */
-    border: 1px dashed black;
 }
 
 .col-100 {
     width: 100%;
-    /* to take out later */
-    border: 1px dashed black;
 }
 
 /* UTILITIES */
+.my-40 {
+    margin: 40px 0;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 .p-ul {
     padding: 10px 10px 10px 20px;
+}
+
+.p-15 {
+    padding: 15px;
 }
 
 .p-25 {
@@ -166,11 +179,21 @@ button {
     color: #fff;
 }
 
-.content-hero {
-    /* to take out later */
-    border: 1px solid black;
-    background-color: #0061FF;
-    height: 300px;
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.jumbo-img {
+    width: 950px;
+    top: 230px;
+    left: 320px
+}
+
+.content-hero>i {
+    font-size: 50px;
+    top: 600px;
+    right: 965px;
 }
 
 .content {
@@ -201,11 +224,8 @@ button {
     height: 300px;
 }
 
-/* to take out after */
-.placeholder {
-    width: 500px;
-    height: 500px;
-    background-color: violet;
+.partners {
+    width: 600px;
 }
 
 .faq {
