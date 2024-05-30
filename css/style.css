@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* take out later */
 }
 
 :root {
     --dropbox-blue: #0061FF;
+    --pastel-blue: #B4D0E7;
 }
 
 /* colored block: to take out later */
@@ -15,11 +15,6 @@ header {
     background-color: #fff;
     max-width: 100%;
     font-family: "Open Sans", sans-serif;
-}
-
-main {
-    background-color: #9c4ee4;
-    height: 1200px
 }
 
 footer {
@@ -44,16 +39,66 @@ footer {
     display: inline-block;
 }
 
-/* LAYOUT */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* to take out later */
+    border: 1px black solid;
+}
 
+/* LAYOUT */
+.container-lg {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-sm {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.col-100 {
+    width: 100%;
+    /* to take out later */
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.col-30 {
+    width: 30%;
+    /* to take out later */
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+        /* to take out later */
+    border: 1px dashed black;
+}
+
+.col-70 {
+    width: 70%;
+    /* to take out later */
+    height: 300px;
+    border: 1px dashed black;
+}
 
 /* UTILITIES */
+.p-ul {
+    padding: 10px 10px 10px 20px;
+}
+
 .p-25 {
     padding: 20px;
 }
 
-.p-ul {
-    padding: 10px 10px 10px 20px;
+.py-100 {
+    padding: 100px 0;
+}
+
+.py-150 {
+    padding: 150px 0;
 }
 
 .pr-2 {
@@ -61,6 +106,12 @@ footer {
 }
 
 /* STYLES */
+/* Bg area */
+.bg-pastelblue {
+    background-color: var(--pastel-blue);
+}
+
+/* Other styles */
 .header-col {
     width: 50%;
 }
@@ -78,4 +129,30 @@ button {
     color: #fff;
 }
 
+.content-hero {
+    /* to take out later */
+    border: 1px solid black;
+    background-color: #0061FF;
+    height: 100%;
+}
 
+.content {
+    /* to take out later */
+    border: 1px solid black;
+    background-color: #0061FF;
+    height: 500px;
+}
+
+.content-plane-title {
+    /* to take out later */
+    border: 1px solid black;
+    background-color: #0061FF;
+    height: 20px;
+}
+
+.content-plane-info {
+    /* to take out later */
+    border: 1px solid black;
+    background-color: #0061FF;
+    height: 100%;
+}
