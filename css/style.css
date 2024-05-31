@@ -471,19 +471,18 @@ h2 {
     font-weight: 700;
 }
 
-
 .footer-list {
     list-style-type: none;
 }
 
 .footer-list>li {
-    padding: 5px 0;
+    padding: 8px 0;
 }
 
 .footer-list>li:first-child {
     font-weight: 900;
     font-size: 18px;
-    padding: 15px 0;
+    padding: 18px 0;
 }
 
 .footer-list a {
