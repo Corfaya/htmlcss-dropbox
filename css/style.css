@@ -19,6 +19,8 @@
     --beau-blue: #B4D0E7;
     --resolution-blue: #0D2481;
     --golden: #FFD830;
+    --white: #fff;
+    --black: #000;
 }
 
 body {
@@ -26,13 +28,11 @@ body {
 }
 
 header {
-    background-color: #fff;
     max-width: 100%;
 }
 
 footer {
-    background-color: #000;
-    color: #fff;
+    color: var(--white);
 }
 
 /* Display */
@@ -46,6 +46,10 @@ footer {
 
 .align-center {
     align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
 }
 
 .justify-center {
@@ -80,6 +84,7 @@ footer {
 .absolute {
     position: absolute;
 }
+
 /* LAYOUT */
 .container-lg {
     width: 1000px;
@@ -177,6 +182,10 @@ footer {
     padding: 30px 0;
 }
 
+.py-45 {
+    padding: 45px 0;
+}
+
 .py-80 {
     padding: 80px 0;
 }
@@ -251,6 +260,14 @@ background-color: var(--resolution-blue);
 background-color: var(--golden);
 }
 
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
 /* Other styles */
 .header-col {
     width: 50%;
@@ -270,12 +287,13 @@ button {
     border: none;
     padding: 8px 15px;
     font-size: 14px;
-    color: #fff;
+    color: var(--white);
+    font-family: "Open Sans", sans-serif;
 }
 
 .decoration-none {
     text-decoration: none;
-    color: #000;
+    color: var(--black);
 }
 
 h1 {
@@ -343,7 +361,7 @@ h2 {
 }
 
 .p-style {
-    color: #000 !important;
+    color: var(--black) !important;
     padding: 30px 0;
 }
 
@@ -374,10 +392,10 @@ h2 {
     padding-left: 50px;
 }
 
-.btn-color-style {
+.btn-transparent {
     background-color: transparent;
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid var(--black);
+    color: var(--black);
     margin-top: 30px;
     font-size: 16px;
 }
@@ -417,11 +435,28 @@ h2 {
     width: 200px;
 }
 
+.color-mulberry {
+    color: var(--mulberry-purple)
+}
 
+.btn-style {
+    color: var(--black);
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 300px;
+    font-size: 15px;
+}
 
+.bg-pastelblue h2 {
+    font-size: 40px;
+}
 
 .faq {
     border-top: 1px solid black;
+}
+
+.faq:first-of-type {
+    margin-top: 10px;
 }
 
 .faq-box:last-child {
@@ -431,6 +466,11 @@ h2 {
 .faq-box i {
     padding-right: 30px;
 }
+
+.faq>p {
+    font-weight: 700;
+}
+
 
 .footer-list {
     list-style-type: none;
@@ -447,7 +487,7 @@ h2 {
 }
 
 .footer-list a {
-    color: #fff;
+    color: var(--white);
 }
 
 .lang {
