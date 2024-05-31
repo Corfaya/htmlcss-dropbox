@@ -46,10 +46,9 @@ footer {
     flex-direction: column;
 }
 
-/* --- TO WORK OUT ---
-.flex-1 {
-    flex: 1;
-} */
+.basis-100 {
+    flex-basis: 100%;
+}
 
 .align-center {
     align-items: center;
