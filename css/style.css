@@ -10,6 +10,8 @@
     --pastel-blue: #B4D0E7;
     --table-borders: #dedede;
     --gray: #909090;
+    --pastel-mint: #D1E9CD;
+    --celadon: #A2D39B;
 }
 
 body {
@@ -103,7 +105,6 @@ footer {
     width: 50%;
     /* to take out later */
     border: 1px dashed black;
-    background-color: yellow;
 }
 
 .col-70 {
@@ -115,6 +116,10 @@ footer {
 }
 
 /* UTILITIES */
+.m-10 {
+    margin: 10px;
+}
+
 .my-40 {
     margin: 40px 0;
 }
@@ -175,10 +180,6 @@ footer {
     padding: 150px 0;
 }
 
-.pt-half {
-    padding-top: 50%;
-}
-
 .pt-100 {
     padding-top: 100px;
 }
@@ -203,6 +204,14 @@ footer {
 /* Bg area */
 .bg-pastelblue {
     background-color: var(--pastel-blue);
+}
+
+.bg-pastelmint {
+    background-color: var(--pastel-mint);
+}
+
+.bg-celadon {
+    background-color: var(--celadon);
 }
 
 /* Other styles */
@@ -345,8 +354,17 @@ h2 {
     width: 250px;
 }
 
+.ratio-1 {
+    aspect-ratio: 1;
+}
 
+.container-full img {
+    width: 100px;
+}
 
+.white-filter {
+    filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(293deg) brightness(109%) contrast(96%);
+}
 
 .faq {
     background-color: rgba(0, 0, 255, 0.413);
