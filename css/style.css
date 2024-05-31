@@ -12,6 +12,13 @@
     --gray: #909090;
     --pastel-mint: #D1E9CD;
     --celadon: #A2D39B;
+    --mulberry-purple: #61082B;
+    --electric-blue: #0093CE;
+    --neon-red: #FF1C1C;
+    --lava: #D5001F;
+    --beau-blue: #B4D0E7;
+    --resolution-blue: #0D2481;
+    --golden: #FFD830;
 }
 
 body {
@@ -103,8 +110,6 @@ footer {
 
 .col-50 {
     width: 50%;
-    /* to take out later */
-    border: 1px dashed black;
 }
 
 .col-70 {
@@ -154,6 +159,10 @@ footer {
 
 .p-25 {
     padding: 20px;
+}
+
+.p-50 {
+    padding: 50px;
 }
 
 .py-10 {
@@ -212,6 +221,34 @@ footer {
 
 .bg-celadon {
     background-color: var(--celadon);
+}
+
+.bg-mulberry {
+   background-color: var(--mulberry-purple); 
+}
+
+.bg-electricblue {
+background-color: var(--electric-blue);
+}
+
+.bg-neonred {
+background-color: var(--neon-red);
+}
+
+.bg-lava {
+background-color: var(--lava);
+}
+
+.bg-beaublue {
+background-color: var(--beau-blue);
+}
+
+.bg-resolutionblue {
+background-color: var(--resolution-blue);
+}
+
+.bg-golden {
+background-color: var(--golden);
 }
 
 /* Other styles */
@@ -358,16 +395,32 @@ h2 {
     aspect-ratio: 1;
 }
 
-.container-full img {
+.container-full img.white-filter {
     width: 100px;
+}
+
+.container-full hr {
+    width: 100px;
+    border-top: 0.5px solid var(--table-borders);
+    margin: 30px 0;
 }
 
 .white-filter {
     filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(293deg) brightness(109%) contrast(96%);
 }
 
+.collab-content>p:last-of-type {
+    margin-top: 40px;
+}
+
+.svg-lg {
+    width: 200px;
+}
+
+
+
+
 .faq {
-    background-color: rgba(0, 0, 255, 0.413);
     border-top: 1px solid black;
 }
 
