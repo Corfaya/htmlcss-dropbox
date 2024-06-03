@@ -578,7 +578,7 @@ button:active {
 
 .dropdown {
     z-index: 2;
-    min-width: 90px;
+    min-width: 130px;
     margin: 10px 0;
     font-size: 15px;
     background-color: var(--beau-blue);
