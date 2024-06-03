@@ -47,6 +47,10 @@ footer {
 }
 
 /* Display */
+.d-none {
+    display: none;
+}
+
 .flex {
     display: flex;
 }
@@ -462,7 +466,7 @@ h2 {
     padding-right: 30px;
 }
 
-.faq>p {
+.faq p {
     font-weight: 700;
 }
 
@@ -506,6 +510,7 @@ h5 {
 /* BONUS --- STYLE CHANGES */
 button:hover {
     background-color: var(--btn-primary-hover);
+    transition: 0.3s;
 }
 
 button:active {
@@ -547,4 +552,26 @@ button:active {
 
 .margin-hover:hover {
     margin: 10px;
+}
+
+.accordion-style {
+    margin-top: 40px;
+    padding: 20px;
+    color: var(--dropbox-blue);
+    border: 2px solid var(--dropbox-blue);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px var(--gray);
+}
+
+.faq:hover .d-none {
+    display: block;
+}
+
+.faq p:first-child:hover {
+    text-decoration: underline var(--dropbox-blue) 3px;
+}
+
+.faq-box i:hover {    
+    color: var(--dropbox-blue);
+    font-size: 20px;
 }
