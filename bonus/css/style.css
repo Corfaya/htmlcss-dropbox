@@ -14,12 +14,19 @@
     --pastel-mint: #D1E9CD;
     --celadon: #A2D39B;
     --mulberry-purple: #61082B;
+    --claret: #721238;
     --electric-blue: #0093CE;
+    --pacific-blue: #339fca;
     --neon-red: #FF1C1C;
+    --coral-red: #fa4f4f;
     --lava: #D5001F;
+    --radical-red: #ff3755;
     --beau-blue: #B4D0E7;
+    --alice-blue: #daedfc;
     --resolution-blue: #0D2481;
+    --persian-blue: #1434b8;
     --golden: #FFD830;
+    --flavescent: #fae68d;    
     --btn-primary-hover: #0062ffce;
     --white: #fff;
     --black: #000;
@@ -163,28 +170,56 @@ footer {
     background-color: var(--celadon);
 }
 
+.bg-claret {
+    background-color: var(--claret);
+}
+
 .bg-mulberry {
    background-color: var(--mulberry-purple); 
+}
+
+.bg-pacificblue {
+    background-color: var(--pacific-blue);
 }
 
 .bg-electricblue {
 background-color: var(--electric-blue);
 }
 
+.bg-coralred {
+    background-color: var(--coral-red);
+}
+
 .bg-neonred {
 background-color: var(--neon-red);
+}
+
+.bg-radicalred {
+    background-color: var(--radical-red);
 }
 
 .bg-lava {
 background-color: var(--lava);
 }
 
+.bg-aliceblue {
+    background-color: var(--alice-blue);
+}
+
 .bg-beaublue {
 background-color: var(--beau-blue);
 }
 
+.bg-persianblue {
+    background-color: var(--persian-blue);
+}
+
 .bg-resolutionblue {
 background-color: var(--resolution-blue);
+}
+
+.bg-flavescent {
+    background-color: var(--flavescent);
 }
 
 .bg-golden {
@@ -457,6 +492,7 @@ h2 {
     padding-right: 6px;
     font-size: 14px;
     color: var(--table-borders);
+    cursor: pointer;
 }
 
 h5 {
@@ -467,15 +503,30 @@ h5 {
     width: 100px;
 }
 
-/* HOVER BONUS */
+/* BONUS --- STYLE CHANGES */
 button:hover {
     background-color: var(--btn-primary-hover);
+}
+
+button:active {
+    background-color: var(--dropbox-blue);
 }
 
 .btn--hover-color:hover {
     background-color: var(--gray);
     color: var(--white);
     border: none;
+}
+
+.btn--transparent:active {
+    background-color: transparent;
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+
+.btn--free-trial:active {
+    color: var(--black);
+    background-color: var(--white);
 }
 
 .header-col a:hover {
@@ -488,4 +539,12 @@ button:hover {
     right: 1150px;
     color: var(--dropbox-blue);
     text-shadow: 2px 2px 2px var(--gray);
+}
+
+.footer-list a:hover {
+    color: var(--table-borders);
+}
+
+.margin-hover:hover {
+    margin: 10px;
 }
