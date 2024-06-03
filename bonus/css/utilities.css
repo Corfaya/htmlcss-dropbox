@@ -1,0 +1,90 @@
+/* Margin area */
+.m-10 {
+    margin: 10px;
+}
+
+.my-40 {
+    margin: 40px 0;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+/* Padding area */
+
+.p-ul {
+    padding: 10px 10px 10px 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-13 {
+    padding: 13px;
+}
+
+.p-25 {
+    padding: 20px;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.py-30 {
+    padding: 30px 0;
+}
+
+.py-45 {
+    padding: 45px 0;
+}
+
+.py-80 {
+    padding: 80px 0;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.py-150 {
+    padding: 150px 0;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pr-2 {
+    padding-right: 2px;
+}
+
+.pr-25 {
+    padding-right: 25px;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
